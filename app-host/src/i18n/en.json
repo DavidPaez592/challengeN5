@@ -1,0 +1,95 @@
+{
+  "title": "Character List",
+  "welcome": "Welcome to the host application",
+  "loading": "Loading characters...",
+  "error": "An error occurred while loading characters.",
+  "race": "Race",
+  "group": "Group",
+  "gender": "Gender",
+  "age": "Age",
+  "eyeColor": "Eye Color",
+  "hairColor": "Hair Color",
+  "director": "Director",
+  "producer": "Producer",
+  "duration": "Duration",
+  "score": "Score",
+  "species": "Species",
+  "type": "Type",
+  "year": "Year",
+  "back": "Back to home",
+  "airing": "Currently Airing",
+  "notAiring": "Not Airing",
+  "male": "Male",
+  "female": "Female",
+  "Z Fighter": "Z Fighter",
+  "Army of Frieza": "Army of Frieza",
+  "Namekian": "Namekian",
+  "Saiyan": "Saiyan",
+  "human": "Human",
+  "half-giant": "Half-Giant",
+  "ghost": "Ghost",
+  "werewolf": "Werewolf",
+  "black": "Black",
+  "green": "Green",
+  "blue": "Blue",
+  "grey": "Grey",
+  "brown": "Brown",
+  "red": "Red",
+  "blonde": "Blonde",
+  "description": "Description",
+  "favorites": "favorites",
+  "unknown": "Unknown",
+  "navbar": {
+    "title": "Tech Challenge - Microfrontends"
+  },
+  "character": {
+    "status": "Status",
+    "species": "Species",
+    "origin": "Origin",
+    "location": "Location"
+  },
+  "eyeColors": {
+    "green": "green",
+    "blue": "blue",
+    "brown": "brown",
+    "black": "black",
+    "grey": "grey",
+    "silver": "silver",
+    "scarlet": "scarlet",
+    "yellow": "yellow",
+    "beady": "beady"
+  },
+  "hairColors": {
+    "black": "black",
+    "brown": "brown",
+    "red": "red",
+    "grey": "grey",
+    "blonde": "blonde",
+    "silver": "silver",
+    "bald": "bald",
+    "blond": "blond"
+  },
+  "home": {
+    "description": "This project allows you to explore character lists from different universes using a microfrontend architecture.",
+    "animeCardInfo": "Explore anime worlds with unforgettable characters.",
+    "rickCardInfo": "Travel through the multiverse with Rick and Morty.",
+    "dbzCardInfo": "Unleash the power of the Z fighters.",
+    "harryCardInfo": "Meet the wizards and creatures of the magical universe."
+  },
+  "animeCharacters": {
+    "title": "Top 10 Most Favorite Anime Characters",
+    "note": "Descriptions come directly from the Jikan API, which does not provide language localization. They were kept in English for consistency with the provided data."
+  },
+  "rick": {
+    "title": "Top 10 Rick and Morty Characters",
+    "note": "This list showcases a featured selection of characters with their status, species, origins, and locations from the official Rick and Morty API."
+  },
+  "dbz": {
+    "title": "Dragon Ball Z Characters",
+    "note": "This section showcases a selection of characters from the Dragon Ball Z universe, highlighting their race, gender, affiliation group, and power levels (Ki). Data is sourced from the official Dragon Ball API."
+  },
+  "hp": {
+    "title": "Most Iconic Characters from the Harry Potter Universe",
+    "note": "The data shown comes from the public Harry Potter API. Some descriptions may be incomplete or missing images due to source limitations."
+  }
+}

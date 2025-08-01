@@ -1,0 +1,98 @@
+{
+  "title": "Lista de personajes",
+  "welcome": "Bienvenido a la aplicación host",
+  "loading": "Cargando personajes...",
+  "error": "Ocurrió un error al cargar los personajes.",
+  "race": "Raza",
+  "group": "Grupo",
+  "gender": "Género",
+  "age": "Edad",
+  "eyeColor": "Color de ojos",
+  "hairColor": "Color de cabello",
+  "director": "Director",
+  "producer": "Productor",
+  "duration": "Duración",
+  "score": "Puntaje",
+  "species": "Especie",
+  "type": "Tipo",
+  "year": "Año",
+  "back": "Volver al inicio",
+  "airing": "En emisión",
+  "notAiring": "No está en emisión",
+  "male": "Masculino",
+  "female": "Femenino",
+  "Z Fighter": "Peleador Z",
+  "Army of Frieza": "Fuerzas de Freezer",
+  "Namekian": "Namekiano",
+  "Saiyan": "Saiyajin",
+  "human": "Humano",
+  "frieza race": "Raza de Freezer",
+  "android": "Androide",
+  "namekian": "Namekusein",
+  "half-giant": "Medio gigante",
+  "ghost": "Fantasma",
+  "werewolf": "Hombre lobo",
+  "black": "Negro",
+  "green": "Verde",
+  "blue": "Azul",
+  "grey": "Gris",
+  "brown": "Café",
+  "red": "Rojo",
+  "blonde": "Rubio",
+  "unknown": "Desconocido",
+  "description": "Descripción",
+  "favorites": "favoritos",
+  "navbar": {
+    "title": "Prueba Técnica - Microfrontends"
+  },
+  "character": {
+    "status": "Estado",
+    "species": "Especie",
+    "origin": "Origen",
+    "location": "Ubicación"
+  },
+  "eyeColors": {
+    "green": "verde",
+    "blue": "azul",
+    "brown": "marrón",
+    "black": "negro",
+    "grey": "gris",
+    "silver": "plateado",
+    "scarlet": "escarlata",
+    "yellow": "amarillo",
+    "beady": "ojos pequeños"
+  },
+  "hairColors": {
+    "black": "negro",
+    "brown": "marrón",
+    "red": "rojo",
+    "grey": "gris",
+    "blonde": "rubio",
+    "silver": "plateado",
+    "bald": "calvo",
+    "blond": "rubio"
+  },
+  "home": {
+    "description": "Este proyecto te permite explorar listas de personajes de diferentes universos usando una arquitectura de microfrontends.",
+    "animeCardInfo": "Explora los mundos del anime con personajes inolvidables.",
+    "rickCardInfo": "Viaja por el multiverso con Rick y Morty.",
+    "dbzCardInfo": "Descubre el poder de los guerreros Z.",
+    "harryCardInfo": "Conoce a los magos y criaturas del universo mágico."
+  },
+  "animeCharacters": {
+    "title": "Top 10 personajes de anime más favoritos",
+    "note": "Las descripciones provienen directamente de la API de Jikan, que no ofrece localización por idioma. Se decidió dejarlas en inglés por consistencia con los datos entregados."
+  },
+  "rick": {
+    "title": "Top 10 personajes de Rick and Morty",
+    "note": "Este listado muestra una selección destacada de personajes con sus estados, especies, orígenes y ubicaciones según la API oficial de Rick and Morty."
+  },
+  "dbz": {
+    "title": "Personajes de Dragon Ball Z",
+    "note": "Esta sección presenta una selección de personajes del universo Dragon Ball Z, destacando su raza, género, grupo de afiliación y niveles de poder (Ki). Los datos provienen de la API oficial de Dragon Ball."
+  },
+  "hp": {
+    "title": "Personajes más emblemáticos del universo de Harry Potter",
+    "note": "Los datos mostrados provienen de la API pública de Harry Potter. Algunas descripciones pueden estar incompletas o sin imagen debido a limitaciones de origen."
+  }
+}
