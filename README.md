@@ -6,7 +6,14 @@ Este proyecto lo desarrollé como parte del challenge técnico para la compañí
 
 ## Instrucciones generales
 
-Todo el proyecto está contenido en una carpeta llamada `N5`. Te recomiendo descomprimir el archivo y abrirlo desde esta carpeta para que las rutas funcionen correctamente.
+Cloná este repositorio y abrilo localmente:
+
+```bash
+git clone https://github.com/DavidPaez592/challengeN5.git
+cd challengeN5
+```
+
+Todo el proyecto está contenido dentro de una carpeta llamada `N5`. Desde ahí, podés entrar a cada microfrontend (`mfe-*`) o al `app-host` para levantar los servicios.
 
 Para correr el proyecto, puedes usar Mac o Windows sin problemas:
 
@@ -20,10 +27,10 @@ También puedes instalar y ejecutar todos los microfrontends desde la raíz del 
 ### Automatización para Mac (Terminal)
 Puedes usar los siguientes comandos para abrir todos los microfrontends desde la raíz:
 ```bash
-osascript -e 'tell application "Terminal" to do script "cd ~/Desktop/N5/mfe-rick && bun run start"'
-osascript -e 'tell application "Terminal" to do script "cd ~/Desktop/N5/mfe-dbz && bun run start"'
-osascript -e 'tell application "Terminal" to do script "cd ~/Desktop/N5/mfe-anime && bun run start"'
-osascript -e 'tell application "Terminal" to do script "cd ~/Desktop/N5/mfe-harry && bun run start"'
+osascript -e 'tell application "Terminal" to do script "cd ./N5/mfe-rick && bun run start"'
+osascript -e 'tell application "Terminal" to do script "cd ./N5/mfe-dbz && bun run start"'
+osascript -e 'tell application "Terminal" to do script "cd ./N5/mfe-anime && bun run start"'
+osascript -e 'tell application "Terminal" to do script "cd ./N5/mfe-harry && bun run start"'
 ```
 
 ### Para usuarios de Windows
@@ -54,7 +61,7 @@ Si prefieres instalar y correr todos los microfrontends al mismo tiempo desde la
 
 ```bash
 # Instalación de dependencias en todos los proyectos
-cd ~/Desktop/N5
+cd ./N5
 bun install --cwd mfe-rick
 bun install --cwd mfe-dbz
 bun install --cwd mfe-anime
